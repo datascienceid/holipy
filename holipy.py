@@ -11,8 +11,8 @@ def rat_l(x,y):
 	rr=0
 	for m in X:
 		for n in Y:
-			if rr<=L.ratio(m.lower(),n.lower()):
-				rr=L.ratio(m.lower(),n.lower())
+			if rr<=L.ratio(m.lower(),str(n.lower())):
+				rr=L.ratio(m.lower(),str(n.lower()))
 	return rr
 
 def auto_complete_hol(nl):
